@@ -11,7 +11,6 @@ import Footer from "./Footer";
 import ResumePreviewSection from "./ResumePreviewSection";
 import { steps } from "./steps";
 import useAutoSaveResume from "./useAutoSaveResume";
-import GeneralInfoForm from "./forms/GeneralInfoForm";
 
 interface ResumeEditorProps {
   resumeToEdit: ResumeServerData | null;
